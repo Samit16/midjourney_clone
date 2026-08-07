@@ -1,7 +1,7 @@
 import express from 'express';
 import * as dotenv from 'dotenv'
 import cors from 'cors'
-import OpenAI from 'openai';
+import {InferenceClient} from "@huggingface/inference"
 import Post from '../mongodb/models/post.ts'
 
 dotenv.config();
