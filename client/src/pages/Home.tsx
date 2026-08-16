@@ -80,7 +80,7 @@ const Home = () => {
           name="text"
           placeholder="Search for a prompt or creator"
           value={searchText}
-          handleChange={(event) => setSearchText(event.target.value)}
+          handleChange={handleSearchChange}
         />
       </div>
       <div className="mt-10">

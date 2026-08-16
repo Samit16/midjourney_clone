@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
-// @ts-expect-error - assets module is JavaScript-only
 import { preview } from '../assets';
 import { getRandomPrompt } from '../utils/index';
 import { FormField, Loader } from '../components';
